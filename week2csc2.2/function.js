@@ -1,4 +1,4 @@
-function flip-a-coin()
+function flipcoin()
 {
     var player1 = Math.ceil(Math.random()*2);
     var headimage = "harleyhead.jpg";
@@ -8,9 +8,12 @@ function flip-a-coin()
     {
         document.getElementById("player1Img").src = headimage;
     }
-    else (player1 == 2)
+    
+    if (player1 == 2)
     {
-        document.getElementById("player1Img").src = tailimage:
+        document.getElementById("player1Img").src = tailimage;    
     }
-}
+    
+    
 
+}
